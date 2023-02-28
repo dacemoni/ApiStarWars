@@ -1,0 +1,74 @@
+body {
+    width: 1900px;
+    background-color: black;
+    color: yellow;
+}
+
+.flex-container {
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 100px;
+    height: 100px;
+    align-content: flex-start;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja {
+    overflow: hidden;
+    border: 1px solid yellow;
+    padding-left: 20px;
+    float: bottom;
+    margin: 10px;
+    width: 400px;
+    min-height: 70px;
+    height: max-content;
+    text-align: left;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.caja:hover {
+    overflow: auto;
+}
+
+#nombre {
+    font-size: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.head {
+    font-size: 15px;
+    color: yellow;
+    border: hidden;
+    position: absolute;
+    bottom: 100px;
+    text-align: left;
+}
+
+#peliculas {
+    min-height: 70px;
+    width: 500px;
+    height: max-content;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.i {
+    position: absolute;
+    bottom: 30px;
+}

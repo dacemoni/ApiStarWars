@@ -1,0 +1,83 @@
+body {
+    width: 1900px;
+    background-color: black;
+    color: yellow;
+}
+
+.flex ul li {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    width: 50%;
+}
+
+body div ul li {
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+#resumen p {
+    color: yellow;
+}
+
+.flex-container {
+    border: 1px solid black;
+    position: relative;
+    margin-top: 100px;
+    height: 600px;
+    align-content: flex-start;
+    width: 90%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja {
+    overflow: hidden;
+    border: 1px solid yellow;
+    padding-left: 20px;
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.caja:hover {
+    overflow: auto;
+}
+
+.header {
+    color: yellow;
+    border: hidden;
+    position: absolute;
+    bottom: 600px;
+    text-align: center;
+}
+
+.caja a {
+    color: white;
+    text-decoration: none;
+}
+
+.r {
+    font: sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.i {
+    position: absolute;
+    bottom: 30px;
+}
